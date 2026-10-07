@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 96f8ffed208b9f643beaf10d7375cd7f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 400416
+  packageName: Low poly medieval weapon 3D assets
+  packageVersion: 1.0
+  assetPath: Assets/halfpucked/LowPolySwords/Demo/demo/ReflectionProbe-0.exr
+  uploadId: 976514
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -53,7 +60,9 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
+  spriteTessellationMethod: 0
   spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
   textureType: 0
   textureShape: 2
   singleChannelComponent: 0
@@ -93,6 +102,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -115,10 +137,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 400416
-  packageName: Low poly medieval weapon 3D assets
-  packageVersion: 1.0
-  assetPath: Assets/halfpucked/LowPolySwords/Demo/demo/ReflectionProbe-0.exr
-  uploadId: 976514
