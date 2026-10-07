@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 885123129084806977}
   m_Layer: 0
   m_Name: LittleGhost_6
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,6 +329,7 @@ MonoBehaviour:
   timeBetweenAttacks: 0.1
   sightRange: 1000
   attackRange: 0.1
+  hp: 1
 --- !u!195 &-4912493359942377258
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -55,5 +55,27 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a9d1d9fb4c659ea48bdd67e04898d277, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2479662000173521847}
   m_SourcePrefab: {fileID: 100100000, guid: a9d1d9fb4c659ea48bdd67e04898d277, type: 3}
+--- !u!1 &4106992315163441449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a9d1d9fb4c659ea48bdd67e04898d277, type: 3}
+  m_PrefabInstance: {fileID: 3764901613058016376}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-2479662000173521847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4106992315163441449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c605d6c1d26102d429b697792c723d7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  damage: 1
+  attackTime: 1

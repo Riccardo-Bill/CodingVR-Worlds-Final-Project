@@ -83,7 +83,7 @@ GameObject:
   - component: {fileID: -7816331713679984771}
   m_Layer: 0
   m_Name: LittleGhost_LP (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -200,6 +200,7 @@ MonoBehaviour:
   timeBetweenAttacks: 0.1
   sightRange: 1000
   attackRange: 0.1
+  hp: 1
 --- !u!195 &-2497464430900565444
 NavMeshAgent:
   m_ObjectHideFlags: 0
