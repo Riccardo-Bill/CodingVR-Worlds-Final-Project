@@ -112,3 +112,5 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+.vscode/settings.json
+Assets/Samples/XR Interaction Toolkit/3.6.0/Starter Assets/Materials/Telport Anchor.mat
