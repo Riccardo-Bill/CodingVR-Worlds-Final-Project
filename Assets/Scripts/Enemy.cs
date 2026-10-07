@@ -7,29 +7,45 @@ using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
-    public NavMeshAgent agent;
-    public Transform player;
+    private NavMeshAgent agent;
+    private Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
     // Patroling
-    public Vector3 walkPoint;
+    private Vector3 walkPoint;
     bool walkPointSet;
     public float walkPointRange;
     // Attacking
     public float timeBetweenAttacks;
-    bool alreadyAttacked;
-    public GameObject projectile;
+    private bool alreadyAttacked;
     // States
     public float sightRange, attackRange;
-    public bool playerInSightRange, playerInAttackRange;
+    private bool playerInSightRange, playerInAttackRange;
+
+    private GameObject[] players;
+    private float dist = float.PositiveInfinity;
+
     private void Awake()
     {
-        
-        player = GameObject.Find("Player").transform;
+        players = GameObject.FindGameObjectsWithTag("Player");
         agent = GetComponent<NavMeshAgent>();
+    }
+
+    private void GetClosestPlayer()
+    {
+        foreach (var p in players)
+        {
+            var d = (transform.position - p.transform.position).sqrMagnitude;
+            if(d < dist)
+            {
+                player = p.transform;
+                dist = d;
+            }
+        }
     }
 
     private void Update()
     {
+        GetClosestPlayer();
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
         if (!playerInSightRange && !playerInAttackRange) Patroling();
@@ -65,9 +81,11 @@ public class Enemy : MonoBehaviour
         if (!alreadyAttacked)
         {
             /// Attack code here
+            /*
             Rigidbody rb = Instantiate(projectile, transform.position + transform.forward, Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            */
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
