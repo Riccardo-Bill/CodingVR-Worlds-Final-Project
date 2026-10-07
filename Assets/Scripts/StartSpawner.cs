@@ -4,13 +4,8 @@ public class StartSpawner : MonoBehaviour
 {
 
     [SerializeField] private GameObject spawner;
-    private int totalPlayers;
-    private int playersCount = 0;
-
-    private void Update()
-    {
-        totalPlayers = GameObject.FindGameObjectsWithTag("Player").Length;
-    }
+    [SerializeField] private int totalPlayers = 1;
+    public int playersCount = 0;
 
     private void OnTriggerEnter(Collider other)
     {

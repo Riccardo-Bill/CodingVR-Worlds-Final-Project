@@ -236,6 +236,8 @@ GameObject:
   - component: {fileID: 2676405798547930094}
   - component: {fileID: 2354503503920472438}
   - component: {fileID: 2151729338664468733}
+  - component: {fileID: -2346039802692546462}
+  - component: {fileID: -8239107437745041085}
   m_Layer: 0
   m_Name: LittleGhost_LP (6)
   m_TagString: Untagged
@@ -377,6 +379,1221 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-2346039802692546462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2676405798547930095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -363599832, guid: ebae63e7edba59945a994528ada1f7a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Normal.Realtime.dll::Normal.Realtime.RealtimeView
+  _realtime: {fileID: 0}
+  _sceneViewUUID: 
+  _viewUUID: 
+  _sceneViewPreventOwnershipTakeover: 0
+  _sceneViewDestroyWhenLastClientLeaves: 1
+  _components:
+  - componentID: 1
+    component: {fileID: -8239107437745041085}
+    isDeprecated: 0
+  _childViews: []
+--- !u!114 &-8239107437745041085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2676405798547930095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1736642930, guid: ebae63e7edba59945a994528ada1f7a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Normal.Realtime.dll::Normal.Realtime.EasySync
+  _version: 1
+  _syncObjects:
+  - _target: {fileID: 2676405798547930095}
+    _id:
+      _id: 1
+      _prevID: 1
+    _properties:
+    - id:
+        _id: 0
+        _prevID: 0
+      name: layer
+      type:
+        _fullName: System.Int32
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.GameObject
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: isStatic
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.GameObject
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: tag
+      type:
+        _fullName: System.String
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.GameObject
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: active
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.GameObject
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 1
+      obsoleteReason: GameObject.active is obsolete. Use GameObject.SetActive(), GameObject.activeSelf or GameObject.activeInHierarchy.
+    - id:
+        _id: 0
+        _prevID: 0
+      name: name
+      type:
+        _fullName: System.String
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Object
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+  - _target: {fileID: 2676405798547930088}
+    _id:
+      _id: 2
+      _prevID: 2
+    _properties:
+    - id:
+        _id: 0
+        _prevID: 0
+      name: rootPosition
+      type:
+        _fullName: UnityEngine.Vector3
+        _assemblyName: UnityEngine.CoreModule
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: rootRotation
+      type:
+        _fullName: UnityEngine.Quaternion
+        _assemblyName: UnityEngine.CoreModule
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: applyRootMotion
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: linearVelocityBlending
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 1
+      obsoleteReason: Animator.linearVelocityBlending is no longer used and has been deprecated.
+    - id:
+        _id: 0
+        _prevID: 0
+      name: animatePhysics
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: bodyPosition
+      type:
+        _fullName: UnityEngine.Vector3
+        _assemblyName: UnityEngine.CoreModule
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: bodyRotation
+      type:
+        _fullName: UnityEngine.Quaternion
+        _assemblyName: UnityEngine.CoreModule
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: stabilizeFeet
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: feetPivotActive
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: speed
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: playbackTime
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: recorderStartTime
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: recorderStopTime
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: layersAffectMassCenter
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: logWarnings
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: fireEvents
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: keepAnimatorControllerStateOnDisable
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 1
+      obsoleteReason: keepAnimatorControllerStateOnDisable is deprecated, use keepAnimatorStateOnDisable instead. (UnityUpgradable) -> keepAnimatorStateOnDisable
+    - id:
+        _id: 0
+        _prevID: 0
+      name: keepAnimatorStateOnDisable
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: writeDefaultValuesOnDisable
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Animator
+        _assemblyName: UnityEngine.AnimationModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: enabled
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Behaviour
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: tag
+      type:
+        _fullName: System.String
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Component
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: name
+      type:
+        _fullName: System.String
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Object
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+  - _target: {fileID: 2676405798547930094}
+    _id:
+      _id: 3
+      _prevID: 3
+    _properties:
+    - id:
+        _id: 0
+        _prevID: 0
+      name: center
+      type:
+        _fullName: UnityEngine.Vector3
+        _assemblyName: UnityEngine.CoreModule
+      declaringType:
+        _fullName: UnityEngine.CapsuleCollider
+        _assemblyName: UnityEngine.PhysicsModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: radius
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.CapsuleCollider
+        _assemblyName: UnityEngine.PhysicsModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: height
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.CapsuleCollider
+        _assemblyName: UnityEngine.PhysicsModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: direction
+      type:
+        _fullName: System.Int32
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.CapsuleCollider
+        _assemblyName: UnityEngine.PhysicsModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: enabled
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Collider
+        _assemblyName: UnityEngine.PhysicsModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: isTrigger
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Collider
+        _assemblyName: UnityEngine.PhysicsModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: contactOffset
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Collider
+        _assemblyName: UnityEngine.PhysicsModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: hasModifiableContacts
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Collider
+        _assemblyName: UnityEngine.PhysicsModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: providesContacts
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Collider
+        _assemblyName: UnityEngine.PhysicsModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: layerOverridePriority
+      type:
+        _fullName: System.Int32
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Collider
+        _assemblyName: UnityEngine.PhysicsModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: tag
+      type:
+        _fullName: System.String
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Component
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: name
+      type:
+        _fullName: System.String
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Object
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+  - _target: {fileID: 2354503503920472438}
+    _id:
+      _id: 4
+      _prevID: 4
+    _properties:
+    - id:
+        _id: 0
+        _prevID: 0
+      name: walkPointRange
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: Enemy
+        _assemblyName: Assembly-CSharp
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: timeBetweenAttacks
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: Enemy
+        _assemblyName: Assembly-CSharp
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: sightRange
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: Enemy
+        _assemblyName: Assembly-CSharp
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: attackRange
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: Enemy
+        _assemblyName: Assembly-CSharp
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: useGUILayout
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.MonoBehaviour
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: runInEditMode
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.MonoBehaviour
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: enabled
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Behaviour
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: tag
+      type:
+        _fullName: System.String
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Component
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: name
+      type:
+        _fullName: System.String
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Object
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+  - _target: {fileID: 2151729338664468733}
+    _id:
+      _id: 5
+      _prevID: 5
+    _properties:
+    - id:
+        _id: 2
+        _prevID: 2
+      name: destination
+      type:
+        _fullName: UnityEngine.Vector3
+        _assemblyName: UnityEngine.CoreModule
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 1
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: stoppingDistance
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: velocity
+      type:
+        _fullName: UnityEngine.Vector3
+        _assemblyName: UnityEngine.CoreModule
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: nextPosition
+      type:
+        _fullName: UnityEngine.Vector3
+        _assemblyName: UnityEngine.CoreModule
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: baseOffset
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: autoTraverseOffMeshLink
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: autoBraking
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: autoRepath
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: isStopped
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: agentTypeID
+      type:
+        _fullName: System.Int32
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: walkableMask
+      type:
+        _fullName: System.Int32
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 1
+      obsoleteReason: Use areaMask instead.
+    - id:
+        _id: 0
+        _prevID: 0
+      name: areaMask
+      type:
+        _fullName: System.Int32
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: speed
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: angularSpeed
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: acceleration
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: updatePosition
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: updateRotation
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: updateUpAxis
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: radius
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: height
+      type:
+        _fullName: System.Single
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: avoidancePriority
+      type:
+        _fullName: System.Int32
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.AI.NavMeshAgent
+        _assemblyName: UnityEngine.AIModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 1
+        _prevID: 1
+      name: enabled
+      type:
+        _fullName: System.Boolean
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Behaviour
+        _assemblyName: UnityEngine.CoreModule
+      sync: 1
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: tag
+      type:
+        _fullName: System.String
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Component
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+    - id:
+        _id: 0
+        _prevID: 0
+      name: name
+      type:
+        _fullName: System.String
+        _assemblyName: mscorlib
+      declaringType:
+        _fullName: UnityEngine.Object
+        _assemblyName: UnityEngine.CoreModule
+      sync: 0
+      kind: 2
+      isInterpolated: 0
+      isDeprecated: 0
+      isObsolete: 0
+      obsoleteReason: 
+  _syncMaterials: []
+  _autoRequestOwnership: 1
 --- !u!1 &2676405798684617458
 GameObject:
   m_ObjectHideFlags: 0

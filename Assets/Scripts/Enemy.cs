@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
 
     private GameObject[] players;
     private float dist = float.PositiveInfinity;
+    public int hp = 1;
 
     private void Awake()
     {
@@ -45,6 +46,7 @@ public class Enemy : MonoBehaviour
 
     private void Update()
     {
+        if (hp < 1) {   Destroy(this); }
         GetClosestPlayer();
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);

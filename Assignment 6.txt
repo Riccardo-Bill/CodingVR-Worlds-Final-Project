@@ -1,0 +1,10 @@
+List core of features:
+
+-An avatar and a mirror
+
+Extras:
+
+-Multiplayer
+-Varius weapons to choose from
+-Equippable items to customize the avatar
+-A series of spawning enemies for the player to defeat together

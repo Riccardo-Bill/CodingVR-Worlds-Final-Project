@@ -1242,7 +1242,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 105462
+// Method Definition Index: 127302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_OverlayActive_m677E5D8F1033209F47E409B202362FB0241419A9 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1261,7 +1261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_OverlayActive_m677E5D8F
 		return L_1;
 	}
 }
-// Method Definition Index: 105463
+// Method Definition Index: 127303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OverlayActive_mC1D03D135C88A955F89303CF11E7B63B835CB553 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1283,7 +1283,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 105464
+// Method Definition Index: 127304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_TopFovDegrees_mBF07B38E3E59D49D0E1E27743E8472FE6CA8B853 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1292,7 +1292,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_TopFovDegrees_mBF07B38
 		return L_0;
 	}
 }
-// Method Definition Index: 105465
+// Method Definition Index: 127305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_TopFovDegrees_m1667862DB78B63DBF1E3B8C72E38F95F911AE984 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1314,7 +1314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_TopFovDegrees_m1667862D
 		return;
 	}
 }
-// Method Definition Index: 105466
+// Method Definition Index: 127306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_BottomFovDegrees_m7FE6972EDD5685BF4E5D84631FE26930582A96D2 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1323,7 +1323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_BottomFovDegrees_m7FE6
 		return L_0;
 	}
 }
-// Method Definition Index: 105467
+// Method Definition Index: 127307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_BottomFovDegrees_m51B425B5F2F706015590710FC2743BDC1E3328F5 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1345,7 +1345,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_BottomFovDegrees_m51B42
 		return;
 	}
 }
-// Method Definition Index: 105468
+// Method Definition Index: 127308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_InnerFovDegrees_mB850EFF84ED491E926C371973A95514CBD54853D (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1354,7 +1354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_InnerFovDegrees_mB850E
 		return L_0;
 	}
 }
-// Method Definition Index: 105469
+// Method Definition Index: 127309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_InnerFovDegrees_mDA5EC5F125C60806C4494461AB23FDD53159CD7D (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1376,7 +1376,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_InnerFovDegrees_mDA5EC5
 		return;
 	}
 }
-// Method Definition Index: 105470
+// Method Definition Index: 127310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_OuterFovDegrees_m559E0C13CD577C9F035F43B1FD7E83F806E80F2B (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1385,7 +1385,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_OuterFovDegrees_m559E0
 		return L_0;
 	}
 }
-// Method Definition Index: 105471
+// Method Definition Index: 127311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterFovDegrees_m2D25F0280027856E161B5C0A8C92A8A7DE0A008E (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1407,7 +1407,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterFovDegrees_m2D25F0
 		return;
 	}
 }
-// Method Definition Index: 105472
+// Method Definition Index: 127312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_Alpha_m9ED4C4CFD39BDD3266FBDE2C3C3873745A87E842 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1416,7 +1416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_Alpha_m9ED4C4CFD39BDD3
 		return L_0;
 	}
 }
-// Method Definition Index: 105473
+// Method Definition Index: 127313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_Alpha_m385F3056B2E3421B5373FE2D564719B1007D4DD9 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1440,7 +1440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_Alpha_m385F3056B2E3421B
 		return;
 	}
 }
-// Method Definition Index: 105474
+// Method Definition Index: 127314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_CornerRadius_m8AAABE3F22B6C68797AFD8876DB5643AA5B36245 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1449,7 +1449,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_CornerRadius_m8AAABE3F
 		return L_0;
 	}
 }
-// Method Definition Index: 105475
+// Method Definition Index: 127315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_CornerRadius_m0485CAF765C25CE821FB0BE8E8C3EEB271135E2E (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1473,7 +1473,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_CornerRadius_m0485CAF76
 		return;
 	}
 }
-// Method Definition Index: 105476
+// Method Definition Index: 127316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_AutoIpd_m658C277640C967C41E3A962A7E4525D6172B226C (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1482,7 +1482,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_AutoIpd_m658C277640C967
 		return L_0;
 	}
 }
-// Method Definition Index: 105477
+// Method Definition Index: 127317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_AutoIpd_mBCB85416FC13868704A304B37F1A6A0575FB4AB6 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1493,7 +1493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_AutoIpd_mBCB85416FC1386
 		return;
 	}
 }
-// Method Definition Index: 105478
+// Method Definition Index: 127318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_Ipd_mA91A1CC77B1F1EA6D756EDF68C2AC912814B6D27 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1503,7 +1503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_Ipd_mA91A1CC77B1F1EA6D
 		return ((float)il2cpp_codegen_multiply(L_0, (1000.0f)));
 	}
 }
-// Method Definition Index: 105479
+// Method Definition Index: 127319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_Ipd_mACAB5B2F5499B1565B4FE8C27C73BEA0F06D0C0E (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1528,7 +1528,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_Ipd_mACAB5B2F5499B1565B
 		return;
 	}
 }
-// Method Definition Index: 105480
+// Method Definition Index: 127320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_OuterFrameEnabled_mA727DC6BDB01932E12B541A6394DDA094900D31D (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1537,7 +1537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_get_OuterFrameEnabled_mA727
 		return L_0;
 	}
 }
-// Method Definition Index: 105481
+// Method Definition Index: 127321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterFrameEnabled_mB0225798F1B8A91E47F5006617F1CC035467CBA2 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1548,7 +1548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterFrameEnabled_mB022
 		return;
 	}
 }
-// Method Definition Index: 105482
+// Method Definition Index: 127322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_TopOuterFrameDegrees_mD30A5D9389D0FCA2127C99D9CF0F3D3AC9EF4E24 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1557,7 +1557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_TopOuterFrameDegrees_m
 		return L_0;
 	}
 }
-// Method Definition Index: 105483
+// Method Definition Index: 127323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_TopOuterFrameDegrees_mC5FEDF65E6AB983432877B5AD1E4539A76D199C9 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1579,7 +1579,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_TopOuterFrameDegrees_mC
 		return;
 	}
 }
-// Method Definition Index: 105484
+// Method Definition Index: 127324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_BottomOuterFrameDegrees_mFB3E37B59AD5A5C90012882F094A8E9F6FEAD762 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1588,7 +1588,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_BottomOuterFrameDegree
 		return L_0;
 	}
 }
-// Method Definition Index: 105485
+// Method Definition Index: 127325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_BottomOuterFrameDegrees_m4E34FF797E502E1A60CC0E0664BD3F38FA960828 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1610,7 +1610,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_BottomOuterFrameDegrees
 		return;
 	}
 }
-// Method Definition Index: 105486
+// Method Definition Index: 127326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_InnerOuterFrameDegrees_mA03EC6C5D0C1B2CB4074C387873743AEC21EFCBB (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1619,7 +1619,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_InnerOuterFrameDegrees
 		return L_0;
 	}
 }
-// Method Definition Index: 105487
+// Method Definition Index: 127327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_InnerOuterFrameDegrees_mCB07F024E99AFC3DA06D4E5B334BF8AD70979983 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1641,7 +1641,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_InnerOuterFrameDegrees_
 		return;
 	}
 }
-// Method Definition Index: 105488
+// Method Definition Index: 127328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_OuterOuterFrameDegrees_mAE89A989607C7BE3D497BE91045AE061F141DDE9 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1650,7 +1650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_get_OuterOuterFrameDegrees
 		return L_0;
 	}
 }
-// Method Definition Index: 105489
+// Method Definition Index: 127329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterOuterFrameDegrees_m90F403DB5B7B9089445DF3A2919A41248DC24D8A (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1672,7 +1672,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_OuterOuterFrameDegrees_
 		return;
 	}
 }
-// Method Definition Index: 105490
+// Method Definition Index: 127330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FovSimulator_get_CompositionDepth_mBCA9CE3D62C6EEA87FE1D0E4CC9313AFF4181083 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1681,7 +1681,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FovSimulator_get_CompositionDepth_mBC
 		return L_0;
 	}
 }
-// Method Definition Index: 105491
+// Method Definition Index: 127331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_set_CompositionDepth_mAD41BDE7BEAFD539D0C24C4B03609A11E61DB39D (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1716,7 +1716,7 @@ IL_0021:
 		return;
 	}
 }
-// Method Definition Index: 105492
+// Method Definition Index: 127332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ResetToDefaults_mB28C0397ECD831770AE3E0A412908F6743EEB29B (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1739,7 +1739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ResetToDefaults_mB28C0397EC
 		return;
 	}
 }
-// Method Definition Index: 105493
+// Method Definition Index: 127333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Awake_m35DF073158441B6811054BFD2FE707A52B6FA4FE (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1748,7 +1748,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Awake_m35DF073158441B681105
 		return;
 	}
 }
-// Method Definition Index: 105494
+// Method Definition Index: 127334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnDestroy_m1BD916B22C8B2503990F5A76313F420108D7DE60 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -1757,7 +1757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnDestroy_m1BD916B22C8B2503
 		return;
 	}
 }
-// Method Definition Index: 105495
+// Method Definition Index: 127335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnDisable_m22EA9734249A1DB2E881DD60D69351BA591AAA7A (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1789,7 +1789,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 105496
+// Method Definition Index: 127336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_OnEnable_m98EB03089ED995713F2C7C4639056980678F9EB0 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1821,7 +1821,7 @@ IL_001a:
 		return;
 	}
 }
-// Method Definition Index: 105497
+// Method Definition Index: 127337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Build_mFEF1C67908056D282CF8C2EA5C399CCE6D2D4509 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2115,7 +2115,7 @@ IL_0242:
 		return;
 	}
 }
-// Method Definition Index: 105498
+// Method Definition Index: 127338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Teardown_mFAEA11052B4C558FAEFBD20B1FC901C88E97AB9F (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2232,7 +2232,7 @@ IL_007a:
 		return;
 	}
 }
-// Method Definition Index: 105499
+// Method Definition Index: 127339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* FovSimulator_CreateRenderTexture_mC1DA459F3D8143C140E83105B643324DD3FE4392 (String_t* ___0_textureName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2297,7 +2297,7 @@ IL_0053:
 		return L_13;
 	}
 }
-// Method Definition Index: 105500
+// Method Definition Index: 127340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ReleaseRenderTexture_mDB0DC93D72592716550C42319F4FD5CAC2D027C9 (RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27** ___0_texture, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2339,7 +2339,7 @@ IL_000b:
 		return;
 	}
 }
-// Method Definition Index: 105502
+// Method Definition Index: 127342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_RefreshMask_mDB769AB23B8309F68D34D05DC174D4CA04B605CE (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2436,7 +2436,7 @@ IL_0047:
 		return;
 	}
 }
-// Method Definition Index: 105503
+// Method Definition Index: 127343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_MarkMaskDynamic_m76042E3D6D8D0C87C2AF4A3605DF2D67ED23FC1E (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2482,7 +2482,7 @@ IL_002a:
 		return;
 	}
 }
-// Method Definition Index: 105504
+// Method Definition Index: 127344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Update_m15F80EB660003E92A0F0FDD56DA1B2F9B9BDB870 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2491,7 +2491,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_Update_m15F80EB660003E92A0F
 		return;
 	}
 }
-// Method Definition Index: 105505
+// Method Definition Index: 127345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_UpdateOverlayState_m08542E4C7BD958A13D14974E523E4B739E366013 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2543,7 +2543,7 @@ IL_0039:
 		return;
 	}
 }
-// Method Definition Index: 105506
+// Method Definition Index: 127346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* FovSimulator_ResolveMainCamera_mDE157C9D06340084DFEFFD591418D5697D986373 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2591,7 +2591,7 @@ IL_0021:
 		return L_7;
 	}
 }
-// Method Definition Index: 105507
+// Method Definition Index: 127347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulator_IsUsableMainCamera_m41B00C6E70CB281BBE81FC78D464069452A96F7A (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2636,7 +2636,7 @@ IL_001d:
 		return (bool)0;
 	}
 }
-// Method Definition Index: 105508
+// Method Definition Index: 127348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_EnsureOverlayCamera_m244AD5B1DC7787EA1F46E0EF904B32E3C5625DDC (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2742,7 +2742,7 @@ IL_0077:
 		return;
 	}
 }
-// Method Definition Index: 105509
+// Method Definition Index: 127349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_RefreshAutoIpdIfNeeded_mAF0047167D0A00D303EBDBF0391C864C6574FA4A (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2809,7 +2809,7 @@ IL_004b:
 		return;
 	}
 }
-// Method Definition Index: 105510
+// Method Definition Index: 127350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_AttachOverlayToCamera_mF5005D2C63D3E965D5012F312E688BCC883721E1 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___0_camera, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -2844,7 +2844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_AttachOverlayToCamera_mF500
 		return;
 	}
 }
-// Method Definition Index: 105511
+// Method Definition Index: 127351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_ResolveIpdMeters_m5DF20354FEE708999B6B8E24BB79AEB1E22DAD13 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -2915,7 +2915,7 @@ IL_003a:
 		return L_7;
 	}
 }
-// Method Definition Index: 105512
+// Method Definition Index: 127352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ApplyMaskParameters_m925245E1B0375CEBD5A68E86C9721473B521CB55 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, bool ___1_isRight, float ___2_ipdMeters, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3041,7 +3041,7 @@ IL_00ad:
 		return;
 	}
 }
-// Method Definition Index: 105513
+// Method Definition Index: 127353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 FovSimulator_CreateBounds_m2F91B3D57F2A8AFEA769D0FA9CAD3EF8C37E99EA (float ___0_leftDegrees, float ___1_rightDegrees, float ___2_bottomDegrees, float ___3_topDegrees, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3064,7 +3064,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80E
 		return L_8;
 	}
 }
-// Method Definition Index: 105514
+// Method Definition Index: 127354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_ClampHalfAngle_mEAC1AD7FF704E847E0AFA4D344C99D1191A0CA03 (float ___0_value, String_t* ___1_parameterName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3086,7 +3086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FovSimulator_ClampHalfAngle_mEAC1AD7FF7
 		return L_3;
 	}
 }
-// Method Definition Index: 105515
+// Method Definition Index: 127355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator_ThrowIfNaN_m6DD774F25DB6C2256247FFA361E0115680C6AA4D (float ___0_value, String_t* ___1_parameterName, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3111,7 +3111,7 @@ IL_0014:
 		return;
 	}
 }
-// Method Definition Index: 105516
+// Method Definition Index: 127356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator__ctor_m1593BD6315D47BAAA7BF5C3C26B1AD1652561EB2 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3134,7 +3134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator__ctor_m1593BD6315D47BAAA7BF
 		return;
 	}
 }
-// Method Definition Index: 105517
+// Method Definition Index: 127357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator__cctor_m54B670F84204B22F710F81957AE1E7299061B174 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3188,7 +3188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulator__cctor_m54B670F84204B22F710
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 105518
+// Method Definition Index: 127358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoaderOwnedObject_get_DestroyScheduled_m16811A0AB6B69B7E71769A1318D202B035E4085E (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3197,7 +3197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoaderOwnedObject_get_Destro
 		return L_0;
 	}
 }
-// Method Definition Index: 105519
+// Method Definition Index: 127359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_set_DestroyScheduled_m7BD58C65788FCC5541F838C22F3E4AAFA7FECEBB (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3207,7 +3207,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_set_Destro
 		return;
 	}
 }
-// Method Definition Index: 105520
+// Method Definition Index: 127360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_Awake_mD0F344652913A0A822F262A5C03E81A423C15659 (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3216,7 +3216,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_Awake_mD0F
 		return;
 	}
 }
-// Method Definition Index: 105521
+// Method Definition Index: 127361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_OnDestroy_mE3B3991AD0785C87211F481001F593DAFCA4B3F8 (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3225,7 +3225,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_OnDestroy_
 		return;
 	}
 }
-// Method Definition Index: 105522
+// Method Definition Index: 127362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject__ctor_m8AD2CF7784CB7F114F69A74B954B8633D9CFF726 (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3242,7 +3242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject__ctor_m8AD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 105523
+// Method Definition Index: 127363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoaderActivationMonitor_get_IsCancelled_mB3485AAB0FAE566DAD90FD0AB94C3BC4EEEB2DCF (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3251,7 +3251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoaderActivationMonitor_get_
 		return L_0;
 	}
 }
-// Method Definition Index: 105524
+// Method Definition Index: 127364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Begin_m2979027984CA6F2A01AD0DDA1810AA3A60170869 (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, String_t* ___1_environment, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3267,7 +3267,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Begi
 		return;
 	}
 }
-// Method Definition Index: 105525
+// Method Definition Index: 127365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_CompleteIfActive_m361B09B431B4E80A162486562496D3BB92BD553F (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, String_t* ___0_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3325,7 +3325,7 @@ IL_0027:
 		return;
 	}
 }
-// Method Definition Index: 105526
+// Method Definition Index: 127366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Cancel_mAEBB555DC4EE179BBB99506EB3CB6370E2A3FA71 (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3351,7 +3351,7 @@ IL_0009:
 		return;
 	}
 }
-// Method Definition Index: 105527
+// Method Definition Index: 127367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Update_mA21A37B6AC587CD302CC8689EA30C274D8564E89 (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3360,7 +3360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor_Upda
 		return;
 	}
 }
-// Method Definition Index: 105528
+// Method Definition Index: 127368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor__ctor_m1D54B2A2E61CFECA04B1B0D559B2F070C0478C51 (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3377,7 +3377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoaderActivationMonitor__cto
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 105529
+// Method Definition Index: 127369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_RegisterOwnedObject_m7E33636966FBD72F631F6BB5D30C9CAAAC03B50F (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* ___0_ownership, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3422,7 +3422,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 105530
+// Method Definition Index: 127370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_UnregisterOwnedObject_mA7E6EAAEF14871A11215EE03390726E577411354 (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* ___0_ownership, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3455,7 +3455,7 @@ IL_0013:
 		return;
 	}
 }
-// Method Definition Index: 105531
+// Method Definition Index: 127371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_Bootstrap_mC3068F52AFBEF8381DE5F9B1AD513B0435FB402F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3480,7 +3480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_Bootstrap_mC3068F52AF
 		return;
 	}
 }
-// Method Definition Index: 105532
+// Method Definition Index: 127372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_OnSceneLoaded_mD7DF848EA5564DA9E82D563C0E092294D26510E7 (Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, int32_t ___1_mode, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3489,7 +3489,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_OnSceneLoaded_mD7DF84
 		return;
 	}
 }
-// Method Definition Index: 105533
+// Method Definition Index: 127373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ApplyAndroidSetting_mDE354E265BB96A7590C6A27A41192E29EAFE2036 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3532,7 +3532,7 @@ IL_0010:
 		return;
 	}
 }
-// Method Definition Index: 105534
+// Method Definition Index: 127374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ApplyConfiguredSetting_m6CC00F2DA96DAEBF102B3B717A7DDC557C648AF1 (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -3541,7 +3541,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ApplyConfiguredSettin
 		return;
 	}
 }
-// Method Definition Index: 105535
+// Method Definition Index: 127375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_Apply_m8917BFB7554DF044BB76689CB3D103D32D750570 (bool ___0_enabled, String_t* ___1_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -3913,7 +3913,7 @@ IL_0192:
 		return;
 	}
 }
-// Method Definition Index: 105536
+// Method Definition Index: 127376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* FovSimulatorLoader_FindCanonicalSimulator_m2342AB8BE430B6C89D5B0AC3A0C5600935F203F9 (String_t* ___0_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4004,7 +4004,7 @@ IL_0046:
 		return (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C*)NULL;
 	}
 }
-// Method Definition Index: 105537
+// Method Definition Index: 127377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* FovSimulatorLoader_FindLoaderOwnedSimulator_m8C2A8AC7A79E9182CC3394C2EE207B0EA8E86872 (String_t* ___0_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4090,7 +4090,7 @@ IL_003e:
 		return L_13;
 	}
 }
-// Method Definition Index: 105538
+// Method Definition Index: 127378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DisableAll_m5B680109284031282B13CA3A57F8515832B6D87B (String_t* ___0_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4212,7 +4212,7 @@ IL_0058:
 		return;
 	}
 }
-// Method Definition Index: 105539
+// Method Definition Index: 127379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoader_DisableSimulator_m80F83379F7A57392AA1767CD000D895DB65DD5EB (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, String_t* ___1_environment, bool ___2_reportFailure, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4272,7 +4272,7 @@ IL_001c:
 		return L_8;
 	}
 }
-// Method Definition Index: 105540
+// Method Definition Index: 127380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* FovSimulatorLoader_GetOrCreateActivationMonitor_mB4C70628387F7196502A2364E9E4F846EF515210 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4318,7 +4318,7 @@ IL_001c:
 		return L_7;
 	}
 }
-// Method Definition Index: 105541
+// Method Definition Index: 127381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* FovSimulatorLoader_FindPendingActivationMonitor_m6F44D330E56650E9504D253A70D48B157C4669DB (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4368,7 +4368,7 @@ IL_001a:
 		return L_6;
 	}
 }
-// Method Definition Index: 105542
+// Method Definition Index: 127382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyLoaderOwnedObjects_mEB6A83CEC8656A30DA17061E8A5652846DCF1310 (String_t* ___0_environment, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4441,7 +4441,7 @@ IL_0031:
 		return;
 	}
 }
-// Method Definition Index: 105543
+// Method Definition Index: 127383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FovSimulatorLoader_TryDeactivate_mC38E8085B7022015B2A8B0FFCF01BE2DCB806E5D (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, String_t* ___1_environment, bool ___2_reportFailure, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4525,7 +4525,7 @@ IL_0031:
 		return L_8;
 	}
 }
-// Method Definition Index: 105544
+// Method Definition Index: 127384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_ScheduleDestroy_m33F8ED1EE4A3502CB4C9F9E0F58E5745F1A1BFFE (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* ___0_ownership, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4599,7 +4599,7 @@ IL_002f:
 		return;
 	}
 }
-// Method Definition Index: 105545
+// Method Definition Index: 127385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyCreatedSimulator_m0AF9DA99AFD123FC7431147E3A2D9B74D8CBB647 (FovSimulator_tBD895B190E386968A3AE251CE03353906AA0523C* ___0_simulator, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___1_createdGameObject, bool ___2_createdComponent, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4678,7 +4678,7 @@ IL_0039:
 		return;
 	}
 }
-// Method Definition Index: 105546
+// Method Definition Index: 127386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FovSimulatorLoader_DestroyInCurrentMode_m7AC4240FB74216E45BCFE43F561DD461649342D9 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4718,7 +4718,7 @@ IL_000e:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 52639
+// Method Definition Index: 59858
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4751,7 +4751,7 @@ IL_0018:
 		return (0.0f);
 	}
 }
-// Method Definition Index: 52637
+// Method Definition Index: 59856
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4788,7 +4788,7 @@ IL_000c:
 		return L_6;
 	}
 }
-// Method Definition Index: 52492
+// Method Definition Index: 59708
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4802,7 +4802,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 		return;
 	}
 }
-// Method Definition Index: 52644
+// Method Definition Index: 59863
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4825,7 +4825,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD01
 		return (bool)((((float)L_2) < ((float)L_9))? 1 : 0);
 	}
 }
-// Method Definition Index: 52565
+// Method Definition Index: 59782
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4834,7 +4834,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 		return L_0;
 	}
 }
-// Method Definition Index: 2357
+// Method Definition Index: 2447
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4845,7 +4845,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F76
 		return (bool)((((int32_t)((int32_t)(L_1&((int32_t)2147483647LL)))) > ((int32_t)((int32_t)2139095040)))? 1 : 0);
 	}
 }
-// Method Definition Index: 52756
+// Method Definition Index: 59976
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4861,7 +4861,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B2
 		return;
 	}
 }
-// Method Definition Index: 105518
+// Method Definition Index: 127358
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FovSimulatorLoaderOwnedObject_get_DestroyScheduled_m16811A0AB6B69B7E71769A1318D202B035E4085E_inline (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4870,7 +4870,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FovSimulatorLoaderOwnedObjec
 		return L_0;
 	}
 }
-// Method Definition Index: 34290
+// Method Definition Index: 34788
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OVRRuntimeSettings_get_FovSimulationEnabled_mC9AF57E5A37637930443607C5BA467114DB848E9_inline (OVRRuntimeSettings_tC85E84DCFBF4DB2D4C3311CA39C96DEE89220EE1* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4879,7 +4879,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool OVRRuntimeSettings_get_FovSi
 		return L_0;
 	}
 }
-// Method Definition Index: 32303
+// Method Definition Index: 32801
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRManager_t21429E69CA88C5E9C6EE3AAB75EAFBE6E1B129D4* OVRManager_get_instance_m642500A467C7D7B5B1C2763F2BA90C52BBF5381C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4896,7 +4896,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR OVRManager_t21429E69CA88C5E9C6EE3
 		return L_0;
 	}
 }
-// Method Definition Index: 105523
+// Method Definition Index: 127363
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FovSimulatorLoaderActivationMonitor_get_IsCancelled_mB3485AAB0FAE566DAD90FD0AB94C3BC4EEEB2DCF_inline (FovSimulatorLoaderActivationMonitor_t345F0324782D1775F21EAE0E29D3004DC7A11CE0* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4905,7 +4905,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FovSimulatorLoaderActivation
 		return L_0;
 	}
 }
-// Method Definition Index: 105519
+// Method Definition Index: 127359
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObject_set_DestroyScheduled_m7BD58C65788FCC5541F838C22F3E4AAFA7FECEBB_inline (FovSimulatorLoaderOwnedObject_tB458B3FEB90188935E256FB2C559F6DBA8EF6E82* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4915,7 +4915,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FovSimulatorLoaderOwnedObjec
 		return;
 	}
 }
-// Method Definition Index: 52622
+// Method Definition Index: 59841
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -4938,7 +4938,7 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 1029
+// Method Definition Index: 1043
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___0_value, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

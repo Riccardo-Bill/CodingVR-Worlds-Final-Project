@@ -1323,10 +1323,10 @@ static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[20] =
 	{ 0x060000E8, 29,  (void**)&BatchShareAnchors_OnBatchShareAsyncComplete_m20CE9A882B13708A7B2804E19FEE740B6A810445_RuntimeMethod_var, 0 },
 	{ 0x060000F0, 154,  (void**)&LoadAllSharedAnchors_OnIncrementalLoadResultsAvailable_mDFD118F95B13AD528951A34CCF4A11A2312A357D_RuntimeMethod_var, 0 },
 	{ 0x060000F1, 153,  (void**)&LoadAllSharedAnchors_OnBatchLoadAsyncComplete_mF301D47681DB9ED2405FD603739A492B46A18D5A_RuntimeMethod_var, 0 },
-	{ 0x06000133, 175,  (void**)&SingleEraseAnchor_OnSingleEraseAsyncComplete_m1B0020815CCEE4799AC799CAEF27840F16DA7985_RuntimeMethod_var, 0 },
-	{ 0x0600013B, 176,  (void**)&SingleLoadAnchor_OnSingleLoadAsyncComplete_m09A96CB2A9D4F4334F894391D10698B9B22293EB_RuntimeMethod_var, 0 },
-	{ 0x06000143, 177,  (void**)&SingleSaveAnchor_OnSingleSaveAsyncComplete_mD321D99E7CCCD8F8A9B432756B8F1A5A84D8F792_RuntimeMethod_var, 0 },
-	{ 0x0600014B, 178,  (void**)&SingleShareAnchor_OnSingleShareAsyncComplete_m4829D6EEA306D6454717E5ABAC899212C2C44289_RuntimeMethod_var, 0 },
+	{ 0x06000133, 176,  (void**)&SingleEraseAnchor_OnSingleEraseAsyncComplete_m1B0020815CCEE4799AC799CAEF27840F16DA7985_RuntimeMethod_var, 0 },
+	{ 0x0600013B, 177,  (void**)&SingleLoadAnchor_OnSingleLoadAsyncComplete_m09A96CB2A9D4F4334F894391D10698B9B22293EB_RuntimeMethod_var, 0 },
+	{ 0x06000143, 178,  (void**)&SingleSaveAnchor_OnSingleSaveAsyncComplete_mD321D99E7CCCD8F8A9B432756B8F1A5A84D8F792_RuntimeMethod_var, 0 },
+	{ 0x0600014B, 179,  (void**)&SingleShareAnchor_OnSingleShareAsyncComplete_m4829D6EEA306D6454717E5ABAC899212C2C44289_RuntimeMethod_var, 0 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_MetaOpenXR_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_XR_MetaOpenXR_CodeGenModule = 

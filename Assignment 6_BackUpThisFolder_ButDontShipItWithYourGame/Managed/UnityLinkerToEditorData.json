@@ -6,6 +6,22 @@
         "dependencies": [
           {
             "name": "NavMeshAgent",
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "NavMeshData",
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "NavMeshObstacle",
             "scenes": [],
             "dependencyType": 0,
             "icon": null
@@ -19,7 +35,7 @@
           {
             "name": "NavMeshSettings",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -34,20 +50,34 @@
         "name": "Animation",
         "dependencies": [
           {
+            "name": "Animation",
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "AnimationClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "Animator",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AnimatorController",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           },
@@ -59,14 +89,28 @@
           },
           {
             "name": "Avatar",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "IConstraint",
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
             "name": "Motion",
             "scenes": [],
             "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "ParentConstraint",
+            "scenes": [],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -99,8 +143,10 @@
         "dependencies": [
           {
             "name": "AudioBehaviour",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -111,7 +157,9 @@
           },
           {
             "name": "AudioListener",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -180,10 +228,8 @@
         "dependencies": [
           {
             "name": "Behaviour",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -194,7 +240,9 @@
           },
           {
             "name": "Camera",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -207,16 +255,14 @@
           {
             "name": "ComputeShader",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "Cubemap",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -235,7 +281,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -249,7 +295,7 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -281,14 +327,16 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 1,
             "icon": null
           },
           {
             "name": "Light",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -306,21 +354,25 @@
           },
           {
             "name": "LightingSettings",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "LineRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -333,7 +385,7 @@
           {
             "name": "Material",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -341,7 +393,7 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -349,7 +401,7 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -357,7 +409,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -365,7 +417,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -379,7 +431,7 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -387,7 +439,7 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -424,7 +476,9 @@
           },
           {
             "name": "RectTransform",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -437,7 +491,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -445,7 +499,7 @@
           {
             "name": "RenderTexture",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -471,7 +525,7 @@
           {
             "name": "Shader",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -484,7 +538,9 @@
           },
           {
             "name": "SkinnedMeshRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -496,13 +552,17 @@
           },
           {
             "name": "SortingGroup",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "Sprite",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -538,8 +598,10 @@
           },
           {
             "name": "Texture2D",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -562,10 +624,8 @@
           },
           {
             "name": "Transform",
-            "scenes": [
-              "Assets/Scenes/Main.unity"
-            ],
-            "dependencyType": 0,
+            "scenes": [],
+            "dependencyType": 1,
             "icon": null
           },
           {
@@ -1112,13 +1172,17 @@
         "dependencies": [
           {
             "name": "ParticleSystem",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "ParticleSystemRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           }
@@ -1130,20 +1194,24 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "CapsuleCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "CharacterController",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1155,7 +1223,9 @@
           },
           {
             "name": "MeshCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1167,13 +1237,17 @@
           },
           {
             "name": "Rigidbody",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "SphereCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1670,7 +1744,7 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/Main.unity"
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1723,7 +1797,9 @@
         "dependencies": [
           {
             "name": "Canvas",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -1735,7 +1811,9 @@
           },
           {
             "name": "CanvasRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/demoscene_dungeon_level_3_hall.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
