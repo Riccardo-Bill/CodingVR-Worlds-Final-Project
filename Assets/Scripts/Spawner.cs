@@ -19,6 +19,8 @@ public class Spawner : MonoBehaviour
             case 0: //win
                 return;
             case 1: //horde n
+                SpawnEnemy(1, 2);
+                SpawnEnemy(2, 1);
                 return;
             case 2:
                 return;
@@ -28,18 +30,13 @@ public class Spawner : MonoBehaviour
                 return;
             case 5:
                 return;
-            case 6:
-                return;
-            case 7:
-                return;
             default: //error
                 return;
         }
     }
 
-    // Update is called once per frame
-    private void Update()
+    private void Start()
     {
-        //TODO: spawn stuff
+        StartHorde(1);
     }
 }
